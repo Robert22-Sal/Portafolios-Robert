@@ -15,12 +15,18 @@
     --main-color: #ea580c; 
 }
 
-html {
+html { 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     font-size: 60%;
     overflow-x: hidden;
 }
 
 body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: var(--bg-color);
     color: var(--text-color);
 }
@@ -368,3 +374,119 @@ section{
 .proyectoI h3{font-size: 3rem;}
 
 .proyectoI p{font-size: 1.6rem;}
+
+/*CONTACTOS*/
+.contactos{background-color: var(--bg-color);}
+
+.contactos h2{
+    margin-bottom: 3rem;
+    color: var(--text-color);
+}
+
+.contactos form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.contactos form .cajaE input,
+.contactos form textarea{
+    width: 100%;
+    padding: 2.5rem;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border-radius: 2rem;
+    border: 2px solid var(--main-color);
+    margin: 1.5rem 0;
+    resize: none;
+}
+
+.entrada2 .btn{
+    margin: 3rem 0;
+    background-color: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    color: black;
+}
+
+.footer{
+    margin-top: auto;
+    width: 5000px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--segundo-bg-color);
+    padding: 20px 0;
+}
+
+.footer .Iconos{text-align: center;}
+
+.footer ul{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.footer ul li a{border-bottom: 3px solid var(--main-color);}
+
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+@media(max-width:1258px){
+    #iconos
+
+    .navegador{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3rem;
+        background: rgba(0, 0, 0, 0.8);
+        border-bottom-left-radius: 2rem;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+    }
+    .navegador a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: var(--text-color);
+
+    }
+    .navegador.active{
+        display: block;
+    }
+    .home{
+        flex-direction: column-reverse;
+        margin: 5rem;
+        gap: 5rem;
+    }
+    .contenidoHome{
+        align-items: center;
+        text-align: center;
+    }
+    .home img{
+        width: 56vw;
+    }
+    .sobre{
+        flex-direction: column-reverse;
+    }
+}
