@@ -488,5 +488,12 @@ section{
     }
     .sobre{
         flex-direction: column-reverse;
+        text-align: center;
     }
+    .sobre h2{
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .sobre img{width: 52vw;}
+    
 }
