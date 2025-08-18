@@ -108,7 +108,6 @@ section{
 
 .home{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 15rem;
@@ -142,7 +141,6 @@ section{
 }
 
 .ImagenHome img{
-    flex-wrap: wrap;
     margin-left: 50%;
     margin-top: -15%;
     width: 32vw;
@@ -425,6 +423,7 @@ section{
     width: 50rem;
 }
 
+/*FOOTER*/
 .footer{
     margin-top: auto;
     width: 5000px;
@@ -467,9 +466,9 @@ section{
     font-size: 16px;
 }
 
-/*
+
 @media(max-width:1258px){
-    #iconos
+    #iconos{display: block;}
 
     .navegador{
         flex-wrap: wrap;
@@ -517,6 +516,6 @@ section{
     }
     .sobre img{width: 52vw;}
 }
-*/
+
 
 
