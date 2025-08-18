@@ -379,7 +379,10 @@ section{
 .proyectoI p{font-size: 1.6rem;}
 
 /*CONTACTOS*/
-.contactos{background-color: var(--bg-color);}
+.contactos{
+    background-color: var(--bg-color);
+    padding: 0 0 20rem;
+}
 
 .contactos h2{
     margin-bottom: 3rem;
@@ -430,7 +433,7 @@ section{
     justify-content: center;
     align-items: center;
     background-color: var(--segundo-bg-color);
-    /*padding: 21px 0;*/
+    padding: 21px 0;
 }
 
 .footer .Iconos{
