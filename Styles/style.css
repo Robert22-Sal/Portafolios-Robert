@@ -430,7 +430,7 @@ section{
     justify-content: center;
     align-items: center;
     background-color: var(--segundo-bg-color);
-    padding: 15px 0;
+    /*padding: 21px 0;*/
 }
 
 .footer .Iconos{
