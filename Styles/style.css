@@ -40,6 +40,7 @@ body {
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
@@ -107,6 +108,7 @@ section{
 
 .home{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 15rem;
@@ -140,6 +142,7 @@ section{
 }
 
 .ImagenHome img{
+    flex-wrap: wrap;
     margin-left: 50%;
     margin-top: -15%;
     width: 32vw;
@@ -427,7 +430,7 @@ section{
     justify-content: center;
     align-items: center;
     background-color: var(--segundo-bg-color);
-    padding: 21px 0;
+    padding: 15px 0;
 }
 
 .footer .Iconos{
@@ -461,10 +464,12 @@ section{
     font-size: 16px;
 }
 
+/*
 @media(max-width:1258px){
     #iconos
 
     .navegador{
+        flex-wrap: wrap;
         position: absolute;
         top: 100%;
         right: 0;
@@ -487,7 +492,7 @@ section{
         display: block;
     }
     .home{
-        flex-direction: column-reverse;
+        flex-wrap: wrap;
         margin: 5rem;
         gap: 5rem;
     }
@@ -499,6 +504,7 @@ section{
         width: 56vw;
     }
     .sobre{
+        flex-wrap: wrap;
         flex-direction: column-reverse;
         text-align: center;
     }
@@ -507,5 +513,7 @@ section{
         margin: 2rem 0;
     }
     .sobre img{width: 52vw;}
-    
 }
+*/
+
+
