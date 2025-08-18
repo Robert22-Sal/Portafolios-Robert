@@ -467,7 +467,7 @@ section{
 }
 
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
 
     .Iconos{display: block;}
 
