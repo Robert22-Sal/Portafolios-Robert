@@ -406,10 +406,17 @@ section{
 }
 
 .entrada2 .btn{
-    margin: 3rem 0;
+    display: block;
+    margin: 4rem 0;
+    margin-right: -50vh;
     background-color: var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
     color: black;
+}
+
+.entrada2 .entradaMensaje{
+    margin-right: -50vh;
+    width: 50rem;
 }
 
 .footer{
@@ -420,12 +427,16 @@ section{
     justify-content: center;
     align-items: center;
     background-color: var(--segundo-bg-color);
-    padding: 20px 0;
+    padding: 21px 0;
 }
 
-.footer .Iconos{text-align: center;}
+.footer .Iconos{
+    text-align: center;
+    margin-right: 50vh;
+}
 
 .footer ul{
+    margin-right: 50vh;
     text-align: center;
     font-size: 1.8rem;
 }
@@ -444,6 +455,7 @@ section{
 .footer ul li a{border-bottom: 3px solid var(--main-color);}
 
 .copyright{
+    margin-right: 50vh;
     text-align: center;
     margin-top: 40px;
     font-size: 16px;
